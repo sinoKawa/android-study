@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="hello">これぞandroid</string>
+    <string name="tap_here">タップして</string>
+    <string name="image_content">画像</string>
 </resources>
