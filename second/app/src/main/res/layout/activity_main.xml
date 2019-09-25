@@ -26,16 +26,16 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="parent"
+        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/choki" />
 
     <ImageButton
         android:id="@+id/gu"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:contentDescription="TODO"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/choki"
         app:layout_constraintEnd_toStartOf="@+id/choki"
@@ -47,10 +47,12 @@
         android:id="@+id/pa"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginStart="127dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/choki"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/choki"
+        app:layout_constraintStart_toStartOf="@+id/choki"
         app:layout_constraintTop_toTopOf="@+id/choki"
         app:srcCompat="@drawable/pa" />
 
