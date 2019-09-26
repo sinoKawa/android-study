@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="jenken_text">ジャン・ケン・・・</string>
     <string name="backButton">戻る</string>
+    <string name="result_win">あなたの勝ちです</string>
+    <string name="result_lose">あなたの負けです</string>
+    <string name="result_draw">あいこです</string>
 </resources>
