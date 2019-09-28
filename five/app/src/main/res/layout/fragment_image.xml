@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ImageFragment"
+    android:id="@+id/frameLayout">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/pager"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slide00"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="312dp" />
-
+        tools:layout_editor_absoluteY="3dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
